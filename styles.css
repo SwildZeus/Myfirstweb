@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.text-section {
+    background-color: #007a5e;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-section h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px 0;
+}
+
+.text-section button {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.text-section button:hover {
+    background-color: #e0a800;
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('https://t4.ftcdn.net/jpg/07/35/24/25/360_F_735242592_quvCDuJcZ1L2X82h3lQdQuY0noBSj0Sx.jpg'); /* Change this URL to your image */
+    background-size: cover;
+    background-position: center;
+}
